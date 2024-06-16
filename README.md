@@ -14,7 +14,8 @@ This template is created for projects built with React.js using Next.js. The rep
 
 3.2. Add the following keybinding for formatting the document:
 
-```json
+<pre>
+<code>
 [
   {
     "key": "ctrl+shift+f",
@@ -22,11 +23,12 @@ This template is created for projects built with React.js using Next.js. The rep
     "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
   }
 ]
-
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+</code>
+</pre>
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
@@ -38,7 +40,7 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
