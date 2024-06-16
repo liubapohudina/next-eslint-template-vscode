@@ -5,6 +5,7 @@ This template is created for projects built with React.js using Next.js. The rep
 ## Usage:
 
 1. Clone the repository.
+![Alt text](public/image.png)
 2. Run the command `npm i` in the terminal.
 3. Add your custom keybinding for formatting documents in VSCode.
 
