@@ -1,3 +1,29 @@
+# React.js with Next.js Template
+
+This template is created for projects built with React.js using Next.js. The repository is configured with ESLint and Prettier for developing applications in VS Code. Additionally, settings are included for automating the code formatting process during commits.
+
+## Usage:
+
+1. Clone the repository.
+2. Run the command `npm i` in the terminal.
+3. Add your custom keybinding for formatting documents in VSCode.
+
+### Adding a Keybinding in VSCode
+
+3.1. Open the command menu (`Ctrl + Shift + P`), and type "Preferences: Open Keyboard Shortcuts (JSON)".
+
+3.2. Add the following keybinding for formatting the document:
+
+```json
+[
+  {
+    "key": "ctrl+shift+f",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+  }
+]
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
